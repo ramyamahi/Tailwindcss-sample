@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.header {
+  @apply font-bold text-4xl text-center;
+}
+
+@tailwind utilities;
+
+/* @layer components {
+    .header {
+        @apply font-bold text-4xl text-center text-green-500;
+      }
+} */
